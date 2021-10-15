@@ -1,2 +1,2 @@
 # PythonTutorial
- Python Activities
+Fundamental Part of python with some Activities
