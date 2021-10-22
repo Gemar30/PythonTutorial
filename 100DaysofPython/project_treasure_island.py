@@ -21,7 +21,8 @@ if cross_road.lower() == "left":
         
         elif choose_color.lower() == "blue" or choose_color.lower() == "red":
             print("You enter a room of beast. Game Over")
-
+        else:
+            print("You chose a door that doesn't exist")
     else:
         print("Game Over")
 else:
