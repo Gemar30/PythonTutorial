@@ -11,11 +11,11 @@ Y88b. 888    Y8b.    888  888     X88Y88b 888888    Y8b.
 print("Welcome to treasure island!")
 print("Your mission is to find the treasure. ")
 
-cross_road = input('You\'re at a cross road. Where do you want to go? Type "left" or "right"')
+cross_road = input('You\'re at a cross road. Where do you want to go? Type "left" or "right" \n')
 if cross_road.lower() == "left":
-    lake = input('You come to a lake.  There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ')
+    lake = input('You come to a lake.  There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n')
     if lake.lower() == "wait":
-        choose_color = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which color do you choose? ")
+        choose_color = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which color do you choose? \n")
         if choose_color.lower() == "yellow":
             print("Congratulations! You win the game! Thank you!")
         
