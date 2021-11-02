@@ -8,9 +8,80 @@
 #             print("You got it!")
 # my_function()
 
-
 # Reproduce the Bug
-from random import randint
-dice_imgs = ["1", "2", "3" ,"4" ,"5" ,"6"]
-dice_num = randint(1, 6)
-print(dice_imgs[dice_num - 1])
+
+# from random import randint
+# dice_imgs = ["1", "2", "3" ,"4" ,"5" ,"6"]
+# dice_num = randint(0, 5)
+# print(dice_imgs[dice_num])
+
+# Play Computer
+# year = int(input("What's your year of birth?: "))
+# if year > 1980 and year < 1994:
+#     print("You are a millenial.")
+# elif year >= 1994:
+#     print("You are a Gen Z")
+
+# Fix the errors
+# age = int(input("How old are you? "))
+# if age > 18:
+#     print(f"You can drive at the age of {age}")
+
+# Print is your friend
+# pages = 0
+# word_per_pages = 0
+# pages = int(input("Number of pages: "))
+# word_per_pages = int(input("Number of words per page: "))
+# total_words = pages * word_per_pages
+# print(f"pages = {pages}")
+# print(f"word_per_pages = {word_per_pages}")
+# print(f"total_words = {total_words}")
+
+# Use a Debugger
+# def mutable(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item =  item * 2
+#         b_list.append(new_item)
+#     print(b_list)
+
+# mutable([1, 2, 3, 5, 8, 13])
+
+# Debug Odd or Even Exercises
+
+# number = int(input("Which number do you want to check?: "))
+
+# if number % 2 == 0:
+#     print("This is even number. ")
+# else:
+#     print("This is odd number. ")
+
+# year = int(input("Which year do you want to check? "))
+
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print("leap year")
+#         else:
+#             print("Not leap year")
+#     else:
+#         print("Leap Year")
+# else:
+#     print("Not a leap year!")
+
+# for number in range(1, 101):
+
+#     if number % 3 == 0 and number % 5 == 0:
+#         print("FizzBuzz")
+#     elif number % 3 == 0:
+#         print("Fizz")
+#     elif number % 5 == 0:
+#         print("Buzz")   
+#     else:
+#         print(number)
+    
+
+
+
+
+
