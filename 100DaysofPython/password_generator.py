@@ -45,7 +45,6 @@ for char in range(1, nr_numbers + 1):
 for char in range(1, nr_symbols + 1):
     password_list += random.choice(symbols)
 
-print(password_list) 
 random.shuffle(password_list)  
 print(password_list)
 
@@ -57,3 +56,5 @@ for char in password_list:
 print(f"Your password is: {password}")
 
 
+
+#DICT PASS - Hf9Y(Zj3*U

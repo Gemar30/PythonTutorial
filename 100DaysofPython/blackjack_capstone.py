@@ -7,16 +7,16 @@ from screen_clear import clear
 
 def deal_card():
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9 , 10, 10, 10, 10]
-    card = random.choice(cards)
+    card = random.choice(cards) # Choose a random elements from a non-empty sequence.
     return card
 
 def calculate_score(cards):
-    if sum(cards) == 21 and len(cards) == 2:
+    if sum(cards) == 21 and len(cards) == 2:  # sum() of all cards  #len() - return the number of items in a container
         return 0
     
     if cards == 11 and sum(cards) > 21:
-        cards.remove(11)
-        cards.append(1)
+        cards.remove(11) # Remove the value in the list.
+        cards.append(1) # Replace the value
 
     return sum(cards)
 

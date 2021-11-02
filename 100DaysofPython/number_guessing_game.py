@@ -1,5 +1,5 @@
 # Day 12 Project
-# Numebr Guessing Game
+# Numberr Guessing Game
 import random
 from guess_number_art import logo
 EASY_LEVEL = 10

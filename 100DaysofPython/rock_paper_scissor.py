@@ -1,33 +1,6 @@
 import random
+from rock_paper_scissor_art import rock, paper, scissors
 
-rock = print('''
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-''')
-
-# Paper
-paper = print('''
-     _______
----'    ____)____
-           ______)
-          _______)
-         _______)
----.__________)
-''')
-
-# Scissors
-scissors = print('''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-''')
 
 game_images = [rock, paper, scissors]
 
