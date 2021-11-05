@@ -57,6 +57,23 @@ resources = {
     "coffee": 100
 
 }
+
+
+# "cappuccino": {
+
+#     "ingredients": {
+
+#         "water": 250,
+
+#         "milk": 100,
+
+#         "coffee": 24,
+
+#     },
+
+#     "cost": 3.0,
+
+# }
 profit = 0
 # Print report
 # CHeck resources sufficient
@@ -65,7 +82,7 @@ profit = 0
 def is_resource_sufficient(order_ingredients):
     """Returns True when order can be made, False if ingredient are insufficient"""
     for item in order_ingredients:
-        if order_ingredients[item] >= resources[item]:
+        if order_ingredients[item] >= resources[item]: # water[250] =  value 
             print(f"There is not enough {item}")
             return False
     return True
