@@ -6,7 +6,7 @@
 
 # Band Name Generator
 
-# main.py
+# hello.py
 
 # PRINTING
 
