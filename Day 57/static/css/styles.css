@@ -1,0 +1,19 @@
+body{
+ background: #efeff3;
+ margin: 0;
+ font-family: 'Raleway', sans-serif;
+ -webkit-font-smoothing: antialiased;
+  color:#212121;
+}
+.wrapper{
+  position: relative;
+  clear:both;
+  margin: 0 auto 75px auto;
+  width: 100%;
+  overflow: hidden;
+}
+.top{
+  background: #4e89ae;
+  height: 180px;
+  border-top: 20px solid #43658b;
+}
